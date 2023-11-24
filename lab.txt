@@ -1,0 +1,71 @@
+operatore ternario		---->			<condizione> ? <istruzione1> : <istruzione2>
+array.map		  	---->
+							const array1 = [1, 4, 9, 16];
+							// Pass a function to map
+							const map1 = array1.map((x) => x * 2);
+							console.log(map1);
+							// Expected output: Array [2, 8, 18, 32]
+array.filter	  		---->
+							const words = ['spray', 'elite', 'exuberant', 'destruction', 'present'];
+							const result = words.filter((word) => word.length > 6);
+							console.log(result);
+							// Expected output: Array ["exuberant", "destruction", "present"]
+
+
+for (let i in obj) 		---->
+							const words = ['spray', 'elite', 'exuberant', 'destruction', 'present'];
+
+							const result = words.filter((word) => word.length > 6);
+
+							console.log(result);
+							// Expected output: Array ["exuberant", "destruction", "present"]
+							
+for(let i of array) 	---->
+
+							const array1 = ['a', 'b', 'c'];
+
+							for (const element of array1) {
+							  console.log(element);
+							}
+
+							// Expected output: "a"
+							// Expected output: "b"
+							// Expected output: "c"
+
+
+slice()				---->		
+
+							const animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+
+							console.log(animals.slice(2));
+							// Expected output: Array ["camel", "duck", "elephant"]
+
+							console.log(animals.slice(2, 4));
+							// Expected output: Array ["camel", "duck"]
+
+							console.log(animals.slice(1, 5));
+							// Expected output: Array ["bison", "camel", "duck", "elephant"]
+
+							console.log(animals.slice(-2));
+							// Expected output: Array ["duck", "elephant"]
+
+							console.log(animals.slice(2, -1));
+							// Expected output: Array ["camel", "duck"]
+
+							console.log(animals.slice());
+							// Expected output: Array ["ant", "bison", "camel", "duck", "elephant"]
+
+
+operatori binari    		---->
+							a^b 
+							a|b
+							a^b
+							~a
+
+
+							n << x :shift a sinistra								0101 << 1 = 1010 
+		
+							n >> x:Bit shift a destra con mantenimento del segno	0101 >> 1 = 0010 		1101 >> 1 = 1110
+
+							n >>> x:Bit shift a destra con inserimento di 0			0101 >>> 1 = 0010       1101 >>> 1 = 0110
+
