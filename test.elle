@@ -1,0 +1,4 @@
+var i=0;
+var tot=0;
+for i=1 to 10 { tot=tot+i };
+print tot

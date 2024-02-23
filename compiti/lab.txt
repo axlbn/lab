@@ -56,6 +56,16 @@ slice()				---->
 							// Expected output: Array ["ant", "bison", "camel", "duck", "elephant"]
 
 
+
+array.splice(index, howmany, item1, ....., itemX) --->
+
+							index : The position to add/remove items.
+
+							howmany	Optional : Number of items to be removed.
+
+							New elements(s) to be added.
+
+
 operatori binari    		---->
 							a^b 
 							a|b
